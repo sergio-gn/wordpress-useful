@@ -1,0 +1,25 @@
+.site-navigation ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-navigation ul.menu li {
+    display: inline-block;
+}
+
+.site-navigation ul.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+.site-navigation ul.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.site-navigation ul.menu li:hover > ul.sub-menu {
+    display: block;
+}
