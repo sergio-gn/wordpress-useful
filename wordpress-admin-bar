@@ -1,0 +1,2 @@
+//Disable or Enable Wordpress Admin bar - top bar
+show_admin_bar(true);
